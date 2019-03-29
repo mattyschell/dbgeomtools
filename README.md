@@ -30,7 +30,7 @@ python test_dbgeomtools.py oracle
 
 example: 
 
-`python test_geomtools.py`
+`python test_geomtools.py oracle`
 
 
 
