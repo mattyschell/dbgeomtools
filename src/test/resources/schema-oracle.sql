@@ -7,6 +7,7 @@ EXCEPTION  WHEN OTHERS THEN
         RAISE;
     END IF;
 END;
+/
 CREATE TABLE table_polygons ( 
     id          NUMBER
    ,mask        VARCHAR2(32)
@@ -39,6 +40,7 @@ EXCEPTION  WHEN OTHERS THEN
         RAISE;
     END IF;
 END;
+/
 CREATE TABLE query_polygons (
     id          NUMBER
    ,testgroup   NUMBER
@@ -58,3 +60,34 @@ INSERT INTO user_sdo_geom_metadata a (
                     ,MDSYS.SDO_DIM_ELEMENT ('Y', 110000, 295000, .0005))
 );
 CREATE INDEX query_polygonsshaidx ON query_polygons (SHAPE) INDEXTYPE IS MDSYS.SPATIAL_INDEX;
+--
+--
+BEGIN
+    EXECUTE IMMEDIATE 'DROP TABLE TABLE_POLYGONS_CLIPPED';
+EXCEPTION  WHEN OTHERS THEN 
+    IF SQLCODE = -942 
+        THEN NULL;
+    ELSE 
+        RAISE;
+    END IF;
+END;
+/
+CREATE TABLE table_polygons_clipped (
+    id          NUMBER
+   ,testgroup   NUMBER
+   ,shape       SDO_GEOMETRY
+   ,CONSTRAINT table_polygons_clippedpkc PRIMARY KEY (id));
+DELETE FROM user_sdo_geom_metadata where table_name = 'TABLE_POLYGONS_CLIPPED';
+INSERT INTO user_sdo_geom_metadata a ( 
+     table_name
+    ,column_name
+    ,srid
+    ,diminfo
+) VALUES (
+     'TABLE_POLYGONS_CLIPPED'
+    ,'SHAPE'
+    ,2263
+    ,SDO_DIM_ARRAY ( MDSYS.SDO_DIM_ELEMENT ('X', 900000, 1090000, .0005)
+                    ,MDSYS.SDO_DIM_ELEMENT ('Y', 110000, 295000, .0005))
+);
+CREATE INDEX table_polygonsclippedshaidx ON table_polygons_clipped (SHAPE) INDEXTYPE IS MDSYS.SPATIAL_INDEX;

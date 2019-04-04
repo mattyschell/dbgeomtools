@@ -1091,8 +1091,7 @@ insert into query_polygons (id, testgroup, shape) values (20,2,MDSYS.SDO_GEOMETR
       997923.404071733,
       194974.042844549
    )
-)
-);
+));
 insert into query_polygons (id, testgroup, shape) values (21,2,MDSYS.SDO_GEOMETRY
 (
    2003,
@@ -1121,8 +1120,7 @@ insert into query_polygons (id, testgroup, shape) values (21,2,MDSYS.SDO_GEOMETR
       997963.172364891,
       191235.841003388
    )
-)
-);
+));
 insert into query_polygons (id, testgroup, shape) values (22,2,MDSYS.SDO_GEOMETRY
 (
    2003,
@@ -1147,6 +1145,669 @@ insert into query_polygons (id, testgroup, shape) values (22,2,MDSYS.SDO_GEOMETR
       1000060.9398229,
       193798.398214221
    )
-)
-);
+));
+--
+insert into table_polygons_clipped (id, testgroup, shape) values (1,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1006437.40246364,
+      181434.640789554,
+      1006437.40246364,
+      180959.767067388,
+      1007308.0040689,
+      180946.576148883,
+      1007281.6222319,
+      181447.831708044,
+      1006437.40246364,
+      181434.640789554
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (10,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1008166.17656514,
+      182447.090208218,
+      1008164.31239565,
+      182068.671673715,
+      1008525.95373273,
+      182066.807504222,
+      1008505.44819631,
+      182447.090208218,
+      1008166.17656514,
+      182447.090208218
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (11,'1',MDSYS.SDO_GEOMETRY
+(
+   2007,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1,
+      11,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1007267.66589499,
+      182396.758615971,
+      1007269.53006448,
+      182258.813025713,
+      1007554.74209248,
+      182251.35634771,
+      1007558.4701034,
+      182387.438096553,
+      1007267.66589499,
+      182396.758615971,
+      1007567.33209267,
+      182509.965205177,
+      1007262.90883987,
+      182507.417716194,
+      1007263.93755598,
+      182420.992163301,
+      1007571.51896182,
+      182420.992163301,
+      1007567.33209267,
+      182509.965205177
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (12,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1006394.01049006,
+      177016.258222133,
+      1006413.89430857,
+      176300.432554051,
+      1007368.32907948,
+      176260.664260879,
+      1007348.44493289,
+      176976.490257055,
+      1006394.01049006,
+      177016.258222133
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (13,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1005492.91417519,
+      182134.173230946,
+      1005485.87686292,
+      181745.837168335,
+      1006154.59332734,
+      182498.143058189,
+      1005815.69747133,
+      182495.307093945,
+      1005492.91417519,
+      182134.173230946
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (14,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1005458.60159972,
+      180240.721589461,
+      1005456.06304617,
+      180050.776103213,
+      1005676.4640249,
+      180050.776103213,
+      1005676.4640249,
+      180239.710982021,
+      1005676.4640249,
+      180375.087790549,
+      1005461.09125745,
+      180378.10697805,
+      1005458.60159972,
+      180240.721589461
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (2,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1006529.77366997,
+      180512.663958967,
+      1006535.59222789,
+      180235.725536466,
+      1007048.75097848,
+      180233.345291883,
+      1007042.97047822,
+      180512.663958967,
+      1006529.77366997,
+      180512.663958967
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (22,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      998440.389586315,
+      191235.841003388,
+      998778.418437809,
+      191235.841003388,
+      998748.592381984,
+      191471.964218795,
+      998440.389586315,
+      191452.080072209,
+      998440.389586315,
+      191235.841003388
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (23,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1001721.25802456,
+      189642.63159138,
+      1001711.3161153,
+      189264.834446713,
+      1002278.01150423,
+      189254.89253746,
+      1002238.24353914,
+      189602.863298222,
+      1001721.25802456,
+      189642.63159138
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (24,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      999283.062113568,
+      191622.551516056,
+      998997.143065974,
+      191591.268442139,
+      999036.911031067,
+      191372.544142053,
+      999303.220209733,
+      191380.651737377,
+      999283.062113568,
+      191622.551516056
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (25,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1000060.9398229,
+      193798.398214221,
+      1000050.99791364,
+      193211.818678722,
+      1001442.88128473,
+      193191.934860215,
+      1001403.11331965,
+      193758.630249128,
+      1000060.9398229,
+      193798.398214221
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (26,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1003048.5184934,
+      192267.326473221,
+      1003068.40263999,
+      191889.529328555,
+      1003277.1853589,
+      191909.413475126,
+      1003257.30121231,
+      192257.384235889,
+      1003048.5184934,
+      192267.326473221
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (27,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1003292.09838681,
+      191561.442386299,
+      1003297.06917739,
+      191297.978674382,
+      1003405.437402,
+      191297.978674382,
+      1003394.41366685,
+      191559.792213629,
+      1003292.09838681,
+      191561.442386299
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (28,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1002685.35730336,
+      191231.413158543,
+      1002660.77976756,
+      191059.370227709,
+      1002988.86638173,
+      191019.601934552,
+      1003003.06844232,
+      191198.546510812,
+      1003013.72164698,
+      191332.77584888,
+      1002705.51885131,
+      191372.544142053,
+      1002685.35730336,
+      191231.413158543
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (29,'2',MDSYS.SDO_GEOMETRY
+(
+   2007,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1,
+      11,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1003259.1653818,
+      192762.563671723,
+      1003274.07840973,
+      192501.585191056,
+      1003354.75919987,
+      192501.585191056,
+      1003343.8254669,
+      192761.261179775,
+      1003259.1653818,
+      192762.563671723,
+      1003072.75236881,
+      192750.135875046,
+      1003080.20871873,
+      192499.099959806,
+      1003226.85376665,
+      192504.070750386,
+      1003214.42629807,
+      192755.10699372,
+      1003072.75236881,
+      192750.135875046
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (30,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      999166.312821974,
+      193023.541824296,
+      997944.154180923,
+      193023.541824296,
+      997949.957217868,
+      192478.058936524,
+      999213.775745282,
+      192453.986287784,
+      999166.312821974,
+      193023.541824296
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (31,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1007181.29467665,
+      192983.773531139,
+      1007300.59889998,
+      190359.078649297,
+      1010720.65603623,
+      190398.84694247,
+      1010641.11977798,
+      192983.773531139,
+      1007181.29467665,
+      192983.773531139
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (32,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1007280.71475339,
+      194673.918116719,
+      1007320.48304656,
+      194037.628378794,
+      1007917.00449131,
+      194037.628378794,
+      1007956.77278447,
+      194634.149823546,
+      1007280.71475339,
+      194673.918116719
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (33,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1009547.49663715,
+      194594.381858468,
+      1009587.26493031,
+      193958.092120543,
+      1010501.93140806,
+      193958.092120543,
+      1010581.46766631,
+      194634.149823546,
+      1009547.49663715,
+      194594.381858468
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (34,'2',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      999101.19503581,
+      193804.955884994,
+      997936.161495564,
+      193774.862729326,
+      997941.248743642,
+      193296.651634454,
+      999145.300082247,
+      193275.694903251,
+      999101.19503581,
+      193804.955884994
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (5,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      998639.372784138,
+      181229.973219886,
+      998686.027218401,
+      179457.111280054,
+      1001205.3568254,
+      179433.784226969,
+      1001088.72123189,
+      181183.318785638,
+      998639.372784138,
+      181229.973219886
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (6,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      998903.770877391,
+      175070.160736382,
+      998884.316519976,
+      172852.3774423,
+      1002172.08323839,
+      172832.923084885,
+      1002094.26613681,
+      175070.160736382,
+      998903.770877391,
+      175070.160736382
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (7,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1008371.23094507,
+      181309.970763296,
+      1008356.31791714,
+      180802.927486047,
+      1008639.21071229,
+      180808.585339459,
+      1008642.06046957,
+      181304.328484123,
+      1008371.23094507,
+      181309.970763296
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (8,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1005475.28168447,
+      181161.161677718,
+      1005463.3896479,
+      180504.933331385,
+      1005865.84028657,
+      180519.579955637,
+      1005880.75331448,
+      181175.753512055,
+      1005475.28168447,
+      181161.161677718
+   )
+));
+insert into table_polygons_clipped (id, testgroup, shape) values (9,'1',MDSYS.SDO_GEOMETRY
+(
+   2003,
+   2263,
+   NULL,
+   MDSYS.SDO_ELEM_INFO_ARRAY
+   (
+      1,
+      1003,
+      1
+   ),
+   MDSYS.SDO_ORDINATE_ARRAY
+   (
+      1007819.44825597,
+      180474.840543792,
+      1007845.2578604,
+      180229.650508377,
+      1007879.10069573,
+      179908.145154879,
+      1008401.05700089,
+      179908.145154879,
+      1008410.16799179,
+      180227.030036392,
+      1008415.97002882,
+      180430.101460055,
+      1007819.44825597,
+      180474.840543792
+   )
+));
 commit;
