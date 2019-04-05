@@ -1,21 +1,24 @@
-## DBGEOMTOOLS
+## DBINTERSECT
 
 ### Description
 
-A collection of database geometry processing tools.  Delusions of support for
-multiple database technologies with a single input test dataset and 
-tests supporting each database as needed.
+A collection of geometry intersection processing tools.  Includes delusions of 
+support for multiple database technologies with a single input test dataset and 
+tests supporting each as needed.
 
 
 ### Dependencies
 
-* python (3.0)
-* Oracle Spatial and/or PostGIS with privileges to create objects in a schema
+* Access to Oracle Spatial and/or PostGIS with privileges to create objects in a schema
+* A database client and whatever it uses as standard command line input (SQL*Plus, psql, etc) 
+* A terminal to execute shell scripts  
 
 
-### Test: Oracle
+## Tests
 
-Thinking about doing the Gradle thing but let's not get ahead of ourselves.
+I should be doing the gradle thing but for now we will call bespoke shell scripts that holler about FAILing when they fail.
+
+### Tests: Oracle
 
 Let's use PostgreSQL environmentals as Oracle inputs and be optimistic about the
 future.  It is our repo my friends it is our rules the trick is to never be 
@@ -25,14 +28,25 @@ afraid.
 $ export PGUSER=MSCHELL
 $ export PGPASSWORD=OracleIsMyDatabae!
 $ export PGDATABASE=DEVDB.DOITT.NYCNET
-python test_dbgeomtools.py oracle
+./dbintersect-test.sh oracle
 ```
 
-example: 
+### Tests: PostgreSQL
 
-`python test_geomtools.py oracle`
-
-
+Some day friends
 
 
+## Deploy
 
+### Deploy: Oracle
+
+```
+$ export PGUSER=MSCHELL
+$ export PGPASSWORD=OracleIsMyDatabae!
+$ export PGDATABASE=DEVDB.DOITT.NYCNET
+./dbintersect-deploy.sh oracle
+```
+
+### Deploy: PostgreSQL
+
+TBD but probably like Oracle but with postgresql instead of oracle just a guess.
