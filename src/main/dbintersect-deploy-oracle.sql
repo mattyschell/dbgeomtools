@@ -193,8 +193,8 @@ AS
                      || '   ' || p_table || ' a '
                      || '  ,' || p_clipper || ' b '
                      || 'where '
-                     || '    a.id = :p2 '
-                     || 'and b.id in (select * from table(:p3)) ';
+                     || '    a.' || p_tablepkc || ' = :p2 '
+                     || 'and b.' || p_clipperpkc || ' in (select * from table(:p3)) ';
 
                 OPEN my_cursor FOR psql USING p_tolerance
                                              ,table_id
